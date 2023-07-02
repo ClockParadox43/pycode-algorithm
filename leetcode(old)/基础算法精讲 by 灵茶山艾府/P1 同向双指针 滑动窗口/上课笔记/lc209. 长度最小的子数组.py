@@ -28,7 +28,7 @@ class Solution:
         return ans if ans <= n else 0         # 类似三目运算
 
 # 写法2:
-class Solution:
+class Solution2:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         n = len(nums)
         ans = n + 1; s = 0; l = 0;
